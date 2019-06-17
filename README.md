@@ -49,13 +49,29 @@ git remote add upstream [original-repo-git-url]
 git fetch upstream
 git merge upstream/master
 ```
-To remove remote branch `git remove upstream` will work. 
+To remove remote branch `git remote remove upstream` will work. 
 
 
-5. 
+5. Fix the merge conflicts
+```Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+```
+Navigate to the file with the conflicts. This should have several indicators. 
+
+You will see changes from YOUR head branch `<<<<<<HEAD` until `============`
+and from the base branch `>>>>>>>> upstream/master`. Decide which changes you wish to keep, delete the others and remove the conflict markers and re add/commit your files. 
+
+
+Note - if there are no conflicts the merge is seamless. 
 
 6. commit and push to your own repo
 7. push to the original repository using webinterface (create pull request)
+
+
+### Issues and Todolists
+- [ ] 
+- [ x ]
 
 
 
