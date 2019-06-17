@@ -70,9 +70,12 @@ Note - if there are no conflicts the merge is seamless.
 
 
 ### Issues and Todolists
-- [ ] 
-- [ x ]
+See tab. 
 
+### other problems 
+- Try `git status`, it tends to tell you how to undo changes (eg `git merge --abort`  and then start again)
+- the web interface
+- google is your friend
 
 
 
