@@ -68,6 +68,11 @@ Note - if there are no conflicts the merge is seamless.
 6. commit and push to your own repo
 7. push to the original repository using webinterface (create pull request)
 
+### How a does a file change between commits 
+Just replace github.com with github.githistory.xyz
+https://github.githistory.xyz/scpyork/github_test_session/blob/master/README.md
+
+
 
 ### Issues and Todolists
 See tab. 
