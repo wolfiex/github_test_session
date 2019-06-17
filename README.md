@@ -41,8 +41,19 @@ This repositiory contains a simple python program to print a message.
 1. Demo on repo creation
 2. fork the reop into a personal account, clone the personal one and change directory into it. 
 3. Make some improvements (be creative) - update the readme file
-4. Incurr class of changes
-5. merge
+
+4. We know the main file has updated changes, so we wish to update our personal repo to match. 
+
+```
+git remote add upstream [original-repo-git-url]
+git fetch upstream
+git merge upstream/master
+```
+To remove remote branch `git remove upstream` will work. 
+
+
+5. 
+
 6. commit and push to your own repo
 7. push to the original repository using webinterface (create pull request)
 
