@@ -18,7 +18,7 @@ This repositiory contains a simple python program to print a message.
 #### Basic
 1. clone this repository and `cd` into it
 2. create a new branch
-3. make some changes to data.txt
+3. make some changes to different files in the sandbox folder (change `.` to your faviourite number)
 4. commit your changes
 5. push your changes 
 6. create a pull request to update master (--force?)
