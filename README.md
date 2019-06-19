@@ -72,7 +72,8 @@ Note - if there are no conflicts the merge is seamless.
 Just replace github.com with github.githistory.xyz
 https://github.githistory.xyz/scpyork/github_test_session/blob/master/README.md
 
-
+## store credentials so you dont have to keep entering your password
+git config credential.helper store
 
 ### Issues and Todolists
 See tab. 
