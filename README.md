@@ -17,7 +17,7 @@ This repositiory contains a simple python program to print a message.
 
 #### Basic
 1. clone this repository and `cd` into it
-2. create a new branch
+2. create a new branch `git checkout -b <yourbranchnamehere>`
 3. make some changes to different files in the sandbox folder (change `.` to your faviourite number)
 4. commit your changes
 5. push your changes 
@@ -72,8 +72,22 @@ Note - if there are no conflicts the merge is seamless.
 Just replace github.com with github.githistory.xyz
 https://github.githistory.xyz/scpyork/github_test_session/blob/master/README.md
 
-## store credentials so you dont have to keep entering your password
+## store credentials so you dont have to keep entering your password (first time only)
+```
+git config --global user.name "Your Name"
+git config --global user.email username@mit.edu
+#save credentials after first time
 git config credential.helper store
+# set editor _ ctrl + x followed by an y or n to save changes
+git config --global core.editor nano
+#add some colour
+git config --global color.branch auto
+git config --global color.diff auto
+git config --global color.interactive auto
+git config --global color.status auto
+git config --global color.grep auto
+```
+
 
 ### Issues and Todolists
 See tab. 
